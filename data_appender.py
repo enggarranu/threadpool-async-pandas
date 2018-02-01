@@ -107,4 +107,3 @@ if __name__ == '__main__':
     result_table_pool = [res.get() for res in result_table_pool]
     print (result_table_pool)
     print("ALL DONE")
-    #EOF

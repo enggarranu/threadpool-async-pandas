@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d983d21-d264-4873-869b-a8aac91788c6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/constant.py" afterPath="$PROJECT_DIR$/constant.py" />
       <change beforePath="$PROJECT_DIR$/data_appender.py" afterPath="$PROJECT_DIR$/data_appender.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,18 +18,18 @@
       <file leaf-file-name="data_appender.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_appender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="109" column="8" lean-forward="false" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+            <state relative-caret-position="239">
+              <caret line="108" column="21" lean-forward="false" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1517462069137" expanded="true" signature="473:556" ph="select id_tr... TrTransaksi" />
-                <marker date="1517462069137" expanded="true" signature="821:892" ph="delete from \&quot;TrStock\&quot;... " />
-                <marker date="1517462069137" expanded="true" signature="943:1018" ph="delete from \&quot;TrTransaksi\&quot;... " />
-                <marker date="1517462069137" expanded="true" signature="1246:1298" ph="select * fro... TrTransaksi" />
-                <marker date="1517462069137" expanded="true" signature="1595:1643" ph="select * fro... TrStock" />
-                <marker date="1517462069137" expanded="true" signature="2042:2117" ph="select * fro... missing_value" />
-                <marker date="1517462069137" expanded="true" signature="2622:2661" ph="select max(\... missing_value" />
-                <marker date="1517462069137" expanded="true" signature="2932:2989" ph="select count... missing_value" />
+                <marker date="1517462132193" expanded="true" signature="473:556" ph="select id_tr... TrTransaksi" />
+                <marker date="1517462132193" expanded="true" signature="821:892" ph="delete from \&quot;TrStock\&quot;... " />
+                <marker date="1517462132193" expanded="true" signature="943:1018" ph="delete from \&quot;TrTransaksi\&quot;... " />
+                <marker date="1517462132193" expanded="true" signature="1246:1298" ph="select * fro... TrTransaksi" />
+                <marker date="1517462132193" expanded="true" signature="1595:1643" ph="select * fro... TrStock" />
+                <marker date="1517462132193" expanded="true" signature="2042:2117" ph="select * fro... missing_value" />
+                <marker date="1517462132193" expanded="true" signature="2622:2661" ph="select max(\... missing_value" />
+                <marker date="1517462132193" expanded="true" signature="2932:2989" ph="select count... missing_value" />
               </folding>
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="constant.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/constant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/credentials.py" />
-        <option value="$PROJECT_DIR$/constant.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/constant.py" />
         <option value="$PROJECT_DIR$/data_appender.py" />
       </list>
     </option>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517462001922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add gitignore">
+      <created>1517462072530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517462072530</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -239,14 +246,14 @@
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1517462069137" expanded="true" signature="473:556" ph="select id_tr... TrTransaksi" />
-            <marker date="1517462069137" expanded="true" signature="821:892" ph="delete from \&quot;TrStock\&quot;... " />
-            <marker date="1517462069137" expanded="true" signature="943:1018" ph="delete from \&quot;TrTransaksi\&quot;... " />
-            <marker date="1517462069137" expanded="true" signature="1246:1298" ph="select * fro... TrTransaksi" />
-            <marker date="1517462069137" expanded="true" signature="1595:1643" ph="select * fro... TrStock" />
-            <marker date="1517462069137" expanded="true" signature="2042:2117" ph="select * fro... missing_value" />
-            <marker date="1517462069137" expanded="true" signature="2622:2661" ph="select max(\... missing_value" />
-            <marker date="1517462069137" expanded="true" signature="2932:2989" ph="select count... missing_value" />
+            <marker date="1517462132193" expanded="true" signature="473:556" ph="select id_tr... TrTransaksi" />
+            <marker date="1517462132193" expanded="true" signature="821:892" ph="delete from \&quot;TrStock\&quot;... " />
+            <marker date="1517462132193" expanded="true" signature="943:1018" ph="delete from \&quot;TrTransaksi\&quot;... " />
+            <marker date="1517462132193" expanded="true" signature="1246:1298" ph="select * fro... TrTransaksi" />
+            <marker date="1517462132193" expanded="true" signature="1595:1643" ph="select * fro... TrStock" />
+            <marker date="1517462132193" expanded="true" signature="2042:2117" ph="select * fro... missing_value" />
+            <marker date="1517462132193" expanded="true" signature="2622:2661" ph="select max(\... missing_value" />
+            <marker date="1517462132193" expanded="true" signature="2932:2989" ph="select count... missing_value" />
           </folding>
         </state>
       </provider>
@@ -265,14 +272,14 @@
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1517462069137" expanded="true" signature="473:556" ph="select id_tr... TrTransaksi" />
-            <marker date="1517462069137" expanded="true" signature="821:892" ph="delete from \&quot;TrStock\&quot;... " />
-            <marker date="1517462069137" expanded="true" signature="943:1018" ph="delete from \&quot;TrTransaksi\&quot;... " />
-            <marker date="1517462069137" expanded="true" signature="1246:1298" ph="select * fro... TrTransaksi" />
-            <marker date="1517462069137" expanded="true" signature="1595:1643" ph="select * fro... TrStock" />
-            <marker date="1517462069137" expanded="true" signature="2042:2117" ph="select * fro... missing_value" />
-            <marker date="1517462069137" expanded="true" signature="2622:2661" ph="select max(\... missing_value" />
-            <marker date="1517462069137" expanded="true" signature="2932:2989" ph="select count... missing_value" />
+            <marker date="1517462132193" expanded="true" signature="473:556" ph="select id_tr... TrTransaksi" />
+            <marker date="1517462132193" expanded="true" signature="821:892" ph="delete from \&quot;TrStock\&quot;... " />
+            <marker date="1517462132193" expanded="true" signature="943:1018" ph="delete from \&quot;TrTransaksi\&quot;... " />
+            <marker date="1517462132193" expanded="true" signature="1246:1298" ph="select * fro... TrTransaksi" />
+            <marker date="1517462132193" expanded="true" signature="1595:1643" ph="select * fro... TrStock" />
+            <marker date="1517462132193" expanded="true" signature="2042:2117" ph="select * fro... missing_value" />
+            <marker date="1517462132193" expanded="true" signature="2622:2661" ph="select max(\... missing_value" />
+            <marker date="1517462132193" expanded="true" signature="2932:2989" ph="select count... missing_value" />
           </folding>
         </state>
       </provider>
@@ -293,14 +300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -309,20 +308,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_appender.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="109" column="8" lean-forward="false" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        <state relative-caret-position="239">
+          <caret line="108" column="21" lean-forward="false" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1517462069137" expanded="true" signature="473:556" ph="select id_tr... TrTransaksi" />
-            <marker date="1517462069137" expanded="true" signature="821:892" ph="delete from \&quot;TrStock\&quot;... " />
-            <marker date="1517462069137" expanded="true" signature="943:1018" ph="delete from \&quot;TrTransaksi\&quot;... " />
-            <marker date="1517462069137" expanded="true" signature="1246:1298" ph="select * fro... TrTransaksi" />
-            <marker date="1517462069137" expanded="true" signature="1595:1643" ph="select * fro... TrStock" />
-            <marker date="1517462069137" expanded="true" signature="2042:2117" ph="select * fro... missing_value" />
-            <marker date="1517462069137" expanded="true" signature="2622:2661" ph="select max(\... missing_value" />
-            <marker date="1517462069137" expanded="true" signature="2932:2989" ph="select count... missing_value" />
+            <marker date="1517462132193" expanded="true" signature="473:556" ph="select id_tr... TrTransaksi" />
+            <marker date="1517462132193" expanded="true" signature="821:892" ph="delete from \&quot;TrStock\&quot;... " />
+            <marker date="1517462132193" expanded="true" signature="943:1018" ph="delete from \&quot;TrTransaksi\&quot;... " />
+            <marker date="1517462132193" expanded="true" signature="1246:1298" ph="select * fro... TrTransaksi" />
+            <marker date="1517462132193" expanded="true" signature="1595:1643" ph="select * fro... TrStock" />
+            <marker date="1517462132193" expanded="true" signature="2042:2117" ph="select * fro... missing_value" />
+            <marker date="1517462132193" expanded="true" signature="2622:2661" ph="select max(\... missing_value" />
+            <marker date="1517462132193" expanded="true" signature="2932:2989" ph="select count... missing_value" />
           </folding>
         </state>
       </provider>
