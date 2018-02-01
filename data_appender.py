@@ -17,7 +17,7 @@ def update_pending_transactions():
     sql = "select id_transaksi from \"TrTransaksi\" where \"StatusTRX\" = 'PENDING' order by 1;"
     df_pending = pd.read_sql_query(sql, engine_cloud)
     id_transaksi_arr = str(tuple(df_pending['id_transaksi']))
-    print ("updateing %s transactions" %str(len(id_transaksi_arr)))
+    print ("updating %s transactions..." %str(len(id_transaksi_arr)))
 
     # delete pending transaction by transaction id
     sql_delete_trstock = "delete from \"TrStock\" where id_transaksi in %s returning id_transaksi;" %id_transaksi_arr
@@ -85,10 +85,10 @@ def calc_pagenation(tb_name="", p_key=""):
     pool_pagenation.close()
     pool_pagenation.join()
     results = [r.get() for r in results]
-    print results
 
     print ("processing: " + tb_name + " with pkey: " + p_key + "COMPLETED")
     print ("="*100)
+    return results
 
 if __name__ == '__main__':
     print("updating pending transactions")
